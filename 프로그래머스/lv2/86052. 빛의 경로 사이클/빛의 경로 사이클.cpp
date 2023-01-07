@@ -10,13 +10,7 @@ bool visit[505][505][4] = {};
 
 int dy[4] = {0, 1, 0, -1};
 int dx[4] = {1, 0, -1, 0};
-//R, D, L, U
 
-// R
-//R -> D
-//D -> L
-//L -> U
-//U -> R
 vector<string> map;
 
 int f_dfs(int y, int x, int k, int cnt) {
