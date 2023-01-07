@@ -1,8 +1,6 @@
 #include <string>
 #include <vector>
 
-#include <iostream>
-
 using namespace std;
 
 int solution(int n, long long l, long long r) {

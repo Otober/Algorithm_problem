@@ -1,10 +1,10 @@
 # [unrated] 유사 칸토어 비트열 - 148652 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/148652#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/148652) 
 
 ### 성능 요약
 
-메모리: 4.21 MB, 시간: 0.15 ms
+메모리: 4.2 MB, 시간: 0.13 ms
 
 ### 구분
 
