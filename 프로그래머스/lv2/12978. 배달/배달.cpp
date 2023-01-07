@@ -19,8 +19,9 @@ void f_initialize() {
     }
 }
 
-bool f_check(int now, int next, int cost) {
+bool f_check(int now, int next, int cost, int K) {
     if(visit[now] + cost >= visit[next]) return false;
+    if(visit[now] + cost > K) return false;
     return true;
 }
 
@@ -41,7 +42,7 @@ int solution(int N, vector<vector<int> > road, int K) {
         for(int i = 0; i < v[now].size(); i++) {
             int next = v[now][i].first;
             int cost = v[now][i].second;
-            if(f_check(now, next, cost)) {
+            if(f_check(now, next, cost, K)) {
                 visit[next] = visit[now] + cost;
                 pq.push(make_pair(-visit[next], next));
             }
