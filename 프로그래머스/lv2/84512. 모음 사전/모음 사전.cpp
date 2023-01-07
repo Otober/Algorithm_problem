@@ -22,7 +22,7 @@ int solution(string word) {
     int answer = 0;
     for (int i = 0; i < N; i++) {
         string temp;
-        temp.push_back(words[i]);
+        temp += words[i];
         f_dfs(temp);
     }
     sort(v.begin(), v.end());
